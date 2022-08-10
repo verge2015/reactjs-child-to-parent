@@ -6,8 +6,11 @@ const Child = ({getColor}) => {
 
     /* A function that takes an event as an argument. */
     const handleChange = (e) => {
+        /* Destructuring the event object and getting the value of the input. */
         const {value } = e.target;
+        /* Setting the state of activeColor to the value of the input. */
         setActiveColor(value);
+        /* Calling the function getColor and passing it the value of the input. */
         getColor(value);
     }
 
