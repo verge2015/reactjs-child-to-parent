@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import Child from './Child.js';
 
 export default function App() {
-    const [UIcolor, setUIColor] = useState(null);
+    /* Creating a state variable called `UIColor` and a function called `setUIColor` that can be used
+    to update the state of `UIColor`. */
+    const [UIColor, setUIColor] = useState(null);
 
-    //Callback function
+    /* A function that takes in a parameter called `color` and returns a function that sets the state
+    of `UIColor` to the value of `color`. */
     const getColor = (color) => {
         setUIColor(color)
     };
@@ -12,11 +15,11 @@ export default function App() {
     return (
         <>
             <div
-                style={{
-                    padding: 100,
-                    background: `${UIcolor}`
-                }}
-            >
+            style={{
+                padding: 100,
+                /* Using the state variable `UIColor` to set the background color of the div. */
+                background: `${UIColor}`
+            }}>
                 <p>This area will change the background color based on color you input</p>
             </div>
             
