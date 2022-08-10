@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Child from './Child.js';
 
-//Parent
-export default function App(){
+export default function App() {
     const [UIcolor, setUIColor] = useState(null);
 
     //Callback function
@@ -11,13 +10,20 @@ export default function App(){
     };
 
     return (
-        <div className='App'>
-        <div
-            className='App_color_container'
-            style={{background: `${UIcolor}`}}
-        ><p>I'm inside div</p></div>
-        <Child getColor={getColor}/>
-        </div>
+        <>
+            <div
+                style={{
+                    padding: 100,
+                    background: `${UIcolor}`
+                }}
+            >
+                <p>This area will change the background color based on color you input</p>
+            </div>
+            
+            <Child 
+            /* Passing the function `getColor` to the child component. */
+            getColor={getColor} />
+        </>
     );
 }
 

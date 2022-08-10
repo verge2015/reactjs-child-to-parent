@@ -4,8 +4,10 @@ import Parent from './components/Parent';
 function App() {
   return (
     <>
-    <h1>Pass Value from Child to Parent using callback</h1>
-    <Parent/>
+    <center>
+      <h1>Pass Value from Child to Parent using Callback</h1>
+      <Parent/>
+    </center>
     </>
   );
 }
