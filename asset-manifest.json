@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactjs-child-to-parent/static/css/main.aadb7ef7.css",
+    "main.js": "/reactjs-child-to-parent/static/js/main.fda3a266.js",
+    "index.html": "/reactjs-child-to-parent/index.html",
+    "main.aadb7ef7.css.map": "/reactjs-child-to-parent/static/css/main.aadb7ef7.css.map",
+    "main.fda3a266.js.map": "/reactjs-child-to-parent/static/js/main.fda3a266.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aadb7ef7.css",
+    "static/js/main.fda3a266.js"
+  ]
+}
