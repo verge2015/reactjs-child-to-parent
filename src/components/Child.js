@@ -15,13 +15,16 @@ const Child = ({getColor}) => {
     }
 
     return (
-        <input
-            type="text"
-            id="input"
-            aria-label="input"
-            onChange={handleChange}
-            value={activeColor}
-            />
+        <>
+            <p>Pick Color</p>
+            <input
+                type="color"
+                id="input"
+                aria-label="input"
+                onChange={handleChange}
+                value={activeColor}
+                />
+        </>
     )
 };
 
