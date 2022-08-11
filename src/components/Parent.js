@@ -20,7 +20,7 @@ export default function App() {
                 /* Using the state variable `UIColor` to set the background color of the div. */
                 background: `${UIColor}`
             }}>
-                <p>This area will change the background color based on color you input</p>
+                <p>This area will change the background color based on your selected color</p>
             </div>
             
             <Child 
