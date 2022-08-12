@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 const Child = ({getColor}) => {
     /* Creating a state variable called activeColor and a function called setActiveColor. */
-    const [activeColor, setActiveColor] = useState(null);
+    const [activeColor, setActiveColor] = useState();
 
     /* A function that takes an event as an argument. */
     const handleChange = (e) => {

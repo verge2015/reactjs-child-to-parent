@@ -4,7 +4,7 @@ import Child from './Child.js';
 export default function App() {
     /* Creating a state variable called `UIColor` and a function called `setUIColor` that can be used
     to update the state of `UIColor`. */
-    const [UIColor, setUIColor] = useState(null);
+    const [UIColor, setUIColor] = useState();
 
     /* A function that takes in a parameter called `color` and returns a function that sets the state
     of `UIColor` to the value of `color`. */
