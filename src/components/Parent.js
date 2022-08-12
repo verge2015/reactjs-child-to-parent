@@ -22,7 +22,7 @@ export default function App() {
                 background: `${UIColor}`
             }}>
                 <h1 className='App-header'>Pass Value from Child to Parent using Callback</h1>
-                <p>This area will change the background color based on your selected color</p>
+                <h3>This area will change the background color based on your selected color</h3>
             </div>
             
             <Child 
