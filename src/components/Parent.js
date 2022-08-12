@@ -15,11 +15,13 @@ export default function App() {
     return (
         <>
             <div
+            className='App'
             style={{
                 padding: 100,
                 /* Using the state variable `UIColor` to set the background color of the div. */
                 background: `${UIColor}`
             }}>
+                <h1 className='App-header'>Pass Value from Child to Parent using Callback</h1>
                 <p>This area will change the background color based on your selected color</p>
             </div>
             

@@ -5,7 +5,6 @@ function App() {
   return (
     <div className='App-Header'>
     <center>
-      <h1>Pass Value from Child to Parent using Callback</h1>
       <Parent/>
     </center>
     </div>
